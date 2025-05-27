@@ -4,8 +4,12 @@ title: Home
 ---
 
 [comment]: <> (inspired by neon-x with the contents of this .md file)
+<div class= "title">
 
-# boring-theme
+  # boring-theme
+
+</div>
+
 
 **the boring theme** is a theme with only neutral colors (black, white, brown, etc.) and will look like really boing but secretly will be a work of art.
 
@@ -14,7 +18,7 @@ title: Home
 ## Navbar
 
 <div class="floating-navbar">
-  <a href="https://ominous-umbrella-v49w55qv6q9h6q9r-4000.app.github.dev/">Home</a>
+  <a href="sahilchess.github.io/tonic">Home</a>
   <a href="https://github.com/sahilchess/tonic">Git</a>
   <a href="https://tonic.hackclub.com/">Tonic</a>
 </div>
@@ -54,7 +58,7 @@ title: Home
 ---
 ##  Typing Input
 
-<div class="card">
+<div class="label-typing-box">
   <p>Enter your name below:</p>
   <input type="text" class="typing-box" placeholder="Your name..." />
 </div>
@@ -65,4 +69,13 @@ title: Home
   <h2>Styled Buttons</h2>
   <button class="btn-primary">Primary Action</button>
   <button class="btn-secondary">Secondary Action</button>
+</div>
+
+
+<div>
+  <footer>
+    Unlimited Rights Reserved
+  </footer>
+
+
 </div>
