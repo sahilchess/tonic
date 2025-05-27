@@ -5,7 +5,7 @@ title: Home
 
 [comment]: <> (inspired by neon-x witht the contents of this .md file)
 
-# This is the boring theme!!
+# boring-theme
 
 **the boring theme** is a theme with only neutral colors (black, white, brown, etc.) and will look like really boing but secretly will be a work of art.
 
