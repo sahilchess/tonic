@@ -18,7 +18,7 @@ title: Home
 ## Navbar
 
 <div class="floating-navbar">
-  <a href="sahilchess.github.io/tonic">Home</a>
+  <a href="https://sahilchess.github.io/tonic/">Home</a>
   <a href="https://github.com/sahilchess/tonic">Git</a>
   <a href="https://tonic.hackclub.com/">Tonic</a>
 </div>
