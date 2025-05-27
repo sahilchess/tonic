@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
+
 [comment]: <> (inspired by neon-x with the contents of this .md file)
-<div class= "title">
+<div class="title">
 
   # boring-theme
 
 </div>
-
 
 **the boring theme** is a theme with only neutral colors (black, white, brown, etc.) and will look like really boing but secretly will be a work of art.
 
@@ -25,6 +25,7 @@ title: Home
 
 
 ---
+
 
 ## Highlight Box
 
