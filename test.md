@@ -72,7 +72,7 @@ title: Home
 </div>
 
 
-<div>
+<div class="footer">
   <footer>
     Unlimited Rights Reserved
   </footer>
