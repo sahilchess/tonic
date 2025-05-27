@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyperbole High School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal; 
+        }
+        .bebas-neue-bold {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .bebas-neue-semibold {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+
+        
+
+    </style>
+
+<!--
+1.Sidebar
+2.navbar
+3.cursor progress and not allowed settings on navbar/sideber/and footer ( i like to call them cursor styles)
+4.footer
+5.button hover settings
+6.blog card
+7.contact form      
+8. custom font
+9.dark mode
+10. favicon
+11. 404 page
+12. i tried to make custom cursor (inspired by journey) but it sadly didnt work
+13. i also tried to make a modal, like a pop-up, but it also didn't work.
+-->
+
+
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-gray-800 dark:text-gray-100">
+        <!-- navbar -->
+    <header class="bg-cyan-600 dark:bg-blue-600 p-6 text-center text-white font-bold">
+        <nav class="bg-cyan-600 dark:bg-blue-600 p-6 shadow-2xl">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="cursor-pointer text-5xl font-bold bebas-neue-regular text-slate-950 dark:text-slate-50">
+                    Hyperbole High School
+                </div>
+                <div class="space-x-4">
+                    <a href="#home" class="text-2xl cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Home</a>
+                    <a href="#directory" class="text-2xl cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Staff Directory</a>
+                    <a href="#card" class="text-2xl cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Weekly News Article</a>
+                    <a href="#contact" class="text-2xl cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+            <!-- Main layout: Sidebar + Content -->
+
+    <div class="container mx-auto p-6 flex flex-col md:flex-row gap-6">
+        <!-- sidebar -->
+        <aside class="bg-slate-400 dark:bg-slate-200 p-4 rounded-xl shadow-md sm:w-1 md:w-1 lg:w-1/2 ">
+            <h2 class="text-3xl font-semibold bebas-neue-bold text-slate-900">Navigation</h2>
+            <ul class="mt-4 space-y-2">
+                <li><a href="#home" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Home</a></li>
+                <li><a href="#directory" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Staff Directory</a></li>
+                <li><a href="#card" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Weekly News Article</a></li>
+                <li><a href="#contact" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Contact</a></li>
+            </ul> 
+            <h3 class="mt-6 text-xl font-semibold bebas-neue-bold text-slate-900">Quick Links</h3>
+            <ul class="mt-2 space-y-2">
+                <li><a href="about:blank" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">School Website</a></li>
+                <li><a href="about:blank" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">School Calendar</a></li>
+                <li><a href="about:blank" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">Contact Us</a></li>
+                <li><a href="about:blank" class="cursor-progress text-slate-950 dark:text-slate-50 hover:text-slate-50 dark:text-slate-950">FAQ</a></li>
+            </ul>
+        </aside>
+
+            <!-- main content -->                
+
+            <!--desc-->
+        <main class="flex-col">
+            <section id="home">
+                <h1 class="text-center text-5xl text-bold mx-auto m-auto ml-auto mb-[10px]">Welcome to Hyperbole High School</h1>
+                <h2 class="text-center text-3xl text-semibold mx-auto m-auto ml-auto mb-[10px]">HOME OF THE APOSTROPHE</h2>
+                <h3 class="mx-auto m-auto ml-auto text-xl"> At Hyperbole, we value grace and compassion over everything else. Our little pupils like to empahzize this motto by helping others! Students can be recognized for doing the right thing by any adult in the building or bus driver by those adults awarding student W-RIZZ coins. Throughout the year, students will have opportunities to redeem their W-RIZZ for different prize raffles established by the students and teachers. There are also opportunities for students to be recognized through positive behavior referrals and RIZZLER student of the month. </h3>
+
+            </section>
+
+                <!--directory -->
+            <section id="directory" class="mt-8">
+                <h1 class="text-center text-3xl bebas-neue-bold">Staff Directory</h2>
+                <ul class="list-disc list-inside text-center">     
+                    <h2 class="text-center sm:text-lg md:text-xl lg:text-2xl bebas-neue">
+                    <li>Superintendent: Mr. Ultimate RIZZLER</li>
+                    <li>Principal: Mr. Normal Rizzler</li>
+                    <li>Vice Principal: Ms. Toilet</li>
+                    <li>Math Teacher: Mrs. Rizz</li>
+                    <li>Science Teacher: Mr. Aura</li>
+                    <li>English Teacher: Ms. Skibidi</li>
+                    </h2>
+                </ul>
+            </section>
+
+                <!-- blog card -->
+            <section id="card" class="mt-8">
+                <h1 class="text-center text-3xl bebas-neue-bold">Featured Article</h1>
+                <div class="container mx-auto p-6 center max-w-md"> 
+                    <div class="items-center bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
+                        <img class="sm:w-16 md:w-48 lg:w-64 xl:96 2xl:128 rounded-t-lg " src="apostrohe.jpg" alt="APOSTROPHE">
+                        <div class="p-5">
+                            <h5 class="text-gray-900 font-bold text-2xl tracking-tight mb-2">Our Mascot</h5>
+                            <p class="font-normal text-gray-700 mb-3">My name is Jennifer and today I am interviewing the famed apostrophe, Hyperbole High's school mascot. Hi apostrophe, how are YOU fighting the cliamte crisis?</p>
+                            <button class=" bg-cyan-600 dark:bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700">
+                                Save changes
+                            </button>           
+                        </div>
+                    </div>
+                </div>
+            </section>
+                
+                <!-- contact -->
+            <section id="contact" class="mt-8 items-center">
+                <h1 class="text-center text-3xl bebas-neue-bold">Contact Us</h1>
+                <form class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md items-center">
+                    <div class="mb-4  items-center">
+                        <h3 class="text-slate-950">Name</h3>
+                        <input type="text" id="name" class="text-slate-950 w-full p-2 border border-gray-300 rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-slate-950">Email</h3>
+                        <input type="email" id="email" class="text-slate-950 w-full p-2 border border-gray-300 rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="text-slate-950">Message</h3>
+                        <textarea id="message" rows="4" class="text-slate-950 w-full p-2 border border-gray-300 rounded"></textarea>
+                    </div>
+                    <button type="submit" class="bg-cyan-600 dark:bg-blue-600 text-white font-bold ml-[130px] py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700">
+                        Send Message
+                    </button>
+                    <h3 class=" text-slate-950 ml-[10]"> Or you can email the staff by clicking this button below: </h3>
+                    <button class="bg-cyan-600 dark:bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-cyan-700 dark:hover:bg-blue-700 mt-2 ml-[150px]">
+                        <a href="mailto:hyperbole_humans@rizzlers.com">Click Me!</a>
+                </form>
+
+                
+
+            </section>
+
+        </main>
+    </div>
+        <!-- footer -->
+    <footer class="cursor-not-allowed bg-cyan-600 dark:bg-blue-600 p-6 text-center text-white font-bold">
+        2025 Hyperbole High School. Not a real school so there are no real rights reserved.
+    </footer>
+</body>
+</html>
