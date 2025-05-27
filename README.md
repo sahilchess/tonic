@@ -1,10 +1,43 @@
-# Tonic Starter
+# boring-theme
 
-A sample [Jekyll](https://jekyllrb.com) theme designed to be a starting point for all [Tonic](https://github.com/hackclub/tonic) submissions.
+**boring-theme** is a minimal, brown-inspired Jekyll theme designed for simplicity and clarity. It uses a neutral color palette, clean layouts, and subtle styling to provide a calm and distraction-free reading experience.
 
-This template is intentionally left incomplete; users should play through Tonic to learn how to make a full-featured theme.
+## Features
 
-# Usage
-1. At the top of this page, select **Use this template** &gt; **Create a new repository** to clone the template to your account.
-2. Create a codespace from the created repository (for beginners) or use `git clone` (for advanced users) to start pushing commits.
-3. Run `gem install jekyll`, then `jekyll serve` to see the template in action.
+- Simple, centered content layout
+- Customizable navigation bar
+- Highlight boxes and styled buttons
+- Underlined text styles
+- Incredibly Boring
+
+## Getting Started
+
+1. **Clone the repository**  
+   Use the template or clone this repo to your local machine.
+
+2. **Install dependencies**  
+   Make sure you have [Jekyll](https://jekyllrb.com/) installed:
+   ```sh
+   gem install jekyll bundler
+   ```
+
+3. **Install gems**  
+   ```
+   bundle install
+   ```
+
+4. **Serve the site locally**  
+   ```
+   bundle exec jekyll serve
+   ```
+   Then open [http://localhost:4000](http://localhost:4000) in your browser.
+
+## Usage
+
+- Place your content in Markdown or HTML files.
+- Customize the theme by editing the SCSS files in [`_sass/base.scss`](_sass/base.scss) and [`assets/boring-theme.scss`](assets/boring-theme.scss).
+- Modify layouts and includes in [`_layouts/`](./_layouts/) and [`_includes/`](./_includes/).
+
+## License
+
+This theme is open source and available under the MIT License.
